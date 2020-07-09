@@ -1,0 +1,6 @@
+const tr = require('transliteration')
+// const result = tr.transliterate('你好，世界')
+// const result = tr.transliterate('Привет, мир!')
+const result = tr.slugify('Привет, мир!')
+console.log(result)
+// console.log('Hello NodeJs!')
